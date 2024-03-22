@@ -6,6 +6,7 @@ from flask import current_app as app
 class Producto:
     @staticmethod
     def obtener_productos():
+        conn = None
         try:
             conn = mysql.connector.connect(**app.config['MYSQL_CONNECTION'])
             cursor = conn.cursor(dictionary=True)
@@ -21,6 +22,7 @@ class Producto:
 
     @staticmethod
     def agregar_producto(data):
+        conn = None
         try:
             conn = mysql.connector.connect(**app.config['MYSQL_CONNECTION'])
             cursor = conn.cursor()
