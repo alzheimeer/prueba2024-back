@@ -3,10 +3,8 @@ DEBUG = True
 
 # Configuración de MySQL
 MYSQL_CONNECTION = {
-    'host': 'monorail.proxy.rlwy.net',
-    'user': 'root',
-    'password': 'QuiyIayexicxdEfkCNUXGYBRlOUHuadX',
-    'database': 'railway'
+    'uri': 'mysql://root:QuiyIayexicxdEfkCNUXGYBRlOUHuadX@monorail.proxy.rlwy.net:34278/railway',
+
 }
 
 # Configuración de MongoDB
