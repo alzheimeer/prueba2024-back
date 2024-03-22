@@ -3,7 +3,7 @@ DEBUG = True
 
 # Configuración de MySQL
 MYSQL_CONNECTION = {
-    'host': 'monorail.proxy.rlwy.net:34278',
+    'host': 'monorail.proxy.rlwy.net',
     'user': 'root',
     'password': 'QuiyIayexicxdEfkCNUXGYBRlOUHuadX',
     'database': 'railway'
