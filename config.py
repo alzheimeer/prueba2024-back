@@ -6,7 +6,7 @@ MYSQL_CONNECTION = {
     'host': 'monorail.proxy.rlwy.net:34278',
     'user': 'root',
     'password': 'QuiyIayexicxdEfkCNUXGYBRlOUHuadX',
-    'database': 'prueba2024'
+    'database': 'railway'
 }
 
 # Configuración de MongoDB
